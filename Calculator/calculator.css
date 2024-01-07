@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Open+Sans:wght@500&family=Poppins:wght@300;400;500;600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Roboto+Mono:wght@400;500;600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    font-family: 'Nunito Sans', sans-serif;
 }  
 
 body {
@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/img.jpg);
+    background-image: url(download.jpg);
     background-size: cover;
 
    
@@ -24,7 +24,7 @@ body {
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
-    background-color:  black;
+    backdrop-filter: blur(4px);
     box-shadow: 0px 3px 15px rgb(0, 47, 255)
 
 }
@@ -39,7 +39,7 @@ input {
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: #00aeff;
+    color: #000000;
 }
 
 input::placeholder {
@@ -52,18 +52,24 @@ button {
     height: 60px;
     margin: 10px;
     border-radius: 50%;
-    background: transparent;
-    color: #fc0303;
+    background: rgb(136, 248, 126);
+    color: #ff0000;
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(0, 255, 64, 0.3);
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
-
+button:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.7s;
+}
 .equalBtn {
     background-color: #fb7c14;
 }
+.buttonoperator{
+    background-color: #000000;
+}
 
 .operator {
-    color: #fbff00;
+    color: #115201;
 }
  
